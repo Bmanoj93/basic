@@ -1,0 +1,16 @@
+let adjective="beauty";
+let noun="anveshbot";
+let verb="anger";
+let place="erragadda";
+let adjective2="flared";
+let noun2="Chocolates";
+let firstStory="Once upon a time, there was a(n) "+adjective+" "+noun+" who loved to eat "+noun2+". The "+noun+" lived in a "+place+" and had "+adjective2+" nostrils that blew fire when it was "+verb+".";
+console.log("First story: "+firstStory);
+adjective="handsome";
+noun="Boy";
+verb="sleeping";
+place="palace";
+adjective2="narrow";
+noun2="apples";
+let secondStory="Once upon a time, there was a(n) "+adjective+" "+noun+" who loved to eat "+noun2+". The "+noun+" lived in a "+place+" and had "+adjective2+" nostrils that blew fire when it was "+verb+".";
+console.log("Second story: "+secondStory);
