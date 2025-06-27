@@ -18,5 +18,52 @@ a
     text-decoration: none;
     color: rgb(234, 234, 240);
 }
+#body{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top:20px;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration:2s ;
+transition-timing-function: ease-in ;
+
+   
+}
+#body:hover{
+    background-color: red;
+    color: black;
+}
   
+#foot{
+    height: 100px;
+    background: linear-gradient(to left,red,yellow);
+    position: relative;
+    top:150px
+}
+#box{
+
+    width:50px ; 
+    height: 100px;
+    background-color: blue;
+    animation-name: boxx;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes boxx{
+    from{
+        width: 50px;
+    }
+    to{
+      width: 600px;  
+    }
+}
+h3{
+    align-items: center;
+}
 
