@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click</title>
+</head>
+<body>
+    <div id="abc" style="width:100px;height:100px;background-color: rgb(57, 137, 207);">
+    </div><br>
+    <button id="clickme">Click Me</button>
+    <script >
+//     let a=document.getElementById("abc")
+//     a.addEventListener("dblclick",function(){
+//         a.style.backgroundColor="rgb(57, 137, 207)";
+//         a.innerHTML="Double Clicked";
+//         a.style.backgroundColor=a.style.backgroundColor==="rgb(57, 137, 207)"?"pink":"lightblue";
+//     }
+// )  ;  
+let a=document.getElementById("abc");
+a.addEventListener("mouseenter",
+function(){
+    a.style.backgroundColor="pink";
+
+});
+a.addEventListener("mouseout",function () {
+    a.style.backgroundColor="rgb(57, 137, 207)";
+
+    
+})
+
+document.getElementById("clickme").addEventListener("click",function(){
+    alert("Button is clicked");
+});
+
+
+    </script>
+</body>
+</html>
