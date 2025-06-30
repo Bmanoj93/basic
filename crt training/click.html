@@ -32,6 +32,12 @@ a.addEventListener("mouseout",function () {
 document.getElementById("clickme").addEventListener("click",function(){
     alert("Button is clicked");
 });
+document.getElementById("clickme").addEventListener("keydown",function(event){
+    console.log("key pressed : "+event.key)
+});
+document.getElementById("clickme").addEventListener("keyup",function(event){
+    console.log("key released : "+event.key)
+});
 
 
     </script>
